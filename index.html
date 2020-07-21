@@ -69,10 +69,10 @@
         map.addLayer(layer_Fonddeplansatllite_0);
         map.createPane('pane_Fonddeplancarte_1');
         map.getPane('pane_Fonddeplancarte_1').style.zIndex = 401;
-        var layer_Fonddeplancarte_1 = L.tileLayer('http://tile-b.openstreetmap.fr/hot/{z}/{x}/{y}.png, http://tile-a.openstreetmap.fr/hot/{z}/{x}/{y}.png, http://tile-c.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+       var layer_Fonddeplancarte_1 = L.tileLayer('http://tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
             pane: 'pane_Fonddeplancarte_1',
             opacity: 1.0,
-            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            attribution: '',
             minZoom: 1,
             maxZoom: 28,
             minNativeZoom: 0,
